@@ -8,7 +8,7 @@ export default {
     'outputPath': "index.html",
     'title': "Pagic template docs",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Pagic template docs</h1>\n<p>Pagic template docs</p>'
+            __html: '<h1>Pagic template docs</h1>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
@@ -17,7 +17,7 @@ export default {
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "Pagic template docs"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>Pagic template docs</p>'
+            __html: '<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
         } }),
     'toc': null,
     'author': "xcatliu",
@@ -25,8 +25,8 @@ export default {
         "xcatliu"
     ],
     'date': "2020-12-10T09:18:25.000Z",
-    'updated': "2020-12-10T09:54:22.000Z",
-    'excerpt': "Pagic template docs",
+    'updated': "2020-12-10T10:27:44.000Z",
+    'excerpt': " 1. Click the Use this template button 2. Enter your Repository name and click the Create repository from template button 3. Edit pagic.config.ts file and replace root, github, nav[0].link options 4. Go to Sett...",
     'cover': undefined,
     'sidebar': [
         {
