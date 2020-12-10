@@ -1,4 +1,4 @@
-# Runtime
+# The Runtime
 
 Documentation for all runtime functions (Web APIs + `Deno` global) can be found
 on
