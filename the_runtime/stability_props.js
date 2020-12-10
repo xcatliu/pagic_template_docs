@@ -1,5 +1,10 @@
 import projectConfig from '/pagic_template_docs/pagic.config.js';
 export default {
+    'prev': {
+        "link": "the_runtime/index.html",
+        "text": "Runtime"
+    },
+    'next': undefined,
     config: { "root": "/", ...projectConfig },
     'pagePath': "the_runtime/stability.md",
     'layoutPath': "_layout.tsx",
@@ -26,6 +31,44 @@ export default {
     'updated': null,
     'excerpt': "As of Deno 1.0.0, the Deno namespace APIs are stable. That means we will strive to make code working under 1.0.0 continue to work in future versions. However, not all of Deno's features are ready for production...",
     'cover': undefined,
+    'sidebar': [
+        {
+            "text": "Introduction",
+            "link": "introduction/index.html",
+            "pagePath": "introduction/README.md"
+        },
+        {
+            "link": "getting_started/index.html",
+            "children": [
+                {
+                    "link": "getting_started/installation.html",
+                    "pagePath": "getting_started/installation.md"
+                },
+                {
+                    "link": "getting_started/setup_your_environment.html",
+                    "pagePath": "getting_started/setup_your_environment.md"
+                },
+                {
+                    "link": "getting_started/first_steps.html",
+                    "pagePath": "getting_started/first_steps.md"
+                }
+            ],
+            "text": "Getting Started",
+            "pagePath": "getting_started/README.md"
+        },
+        {
+            "link": "the_runtime/index.html",
+            "children": [
+                {
+                    "text": "Stability",
+                    "link": "the_runtime/stability.html",
+                    "pagePath": "the_runtime/stability.md"
+                }
+            ],
+            "text": "Runtime",
+            "pagePath": "the_runtime/README.md"
+        }
+    ],
     'blog': {
         "isPost": false,
         "posts": [],

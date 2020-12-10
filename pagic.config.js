@@ -9,11 +9,11 @@ export default {
     nav: [
         {
             text: 'Docs',
-            link: '/docs/introduction.html',
+            link: '/pagic_template_docs/docs/introduction.html',
         },
     ],
     sidebar: {
-        '/docs/': [
+        '/': [
             'introduction/README.md',
             {
                 link: 'getting_started/README.md',

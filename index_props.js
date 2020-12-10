@@ -1,5 +1,7 @@
 import projectConfig from '/pagic_template_docs/pagic.config.js';
 export default {
+    'prev': undefined,
+    'next': undefined,
     config: { "root": "/", ...projectConfig },
     'pagePath': "README.md",
     'layoutPath': "_layout.tsx",
@@ -26,6 +28,44 @@ export default {
     'updated': "2020-12-10T09:54:22.000Z",
     'excerpt': "Pagic template docs",
     'cover': undefined,
+    'sidebar': [
+        {
+            "text": "Introduction",
+            "link": "introduction/index.html",
+            "pagePath": "introduction/README.md"
+        },
+        {
+            "link": "getting_started/index.html",
+            "children": [
+                {
+                    "link": "getting_started/installation.html",
+                    "pagePath": "getting_started/installation.md"
+                },
+                {
+                    "link": "getting_started/setup_your_environment.html",
+                    "pagePath": "getting_started/setup_your_environment.md"
+                },
+                {
+                    "link": "getting_started/first_steps.html",
+                    "pagePath": "getting_started/first_steps.md"
+                }
+            ],
+            "text": "Getting Started",
+            "pagePath": "getting_started/README.md"
+        },
+        {
+            "link": "the_runtime/index.html",
+            "children": [
+                {
+                    "text": "Stability",
+                    "link": "the_runtime/stability.html",
+                    "pagePath": "the_runtime/stability.md"
+                }
+            ],
+            "text": "Runtime",
+            "pagePath": "the_runtime/README.md"
+        }
+    ],
     'blog': {
         "isPost": false,
         "posts": [],
