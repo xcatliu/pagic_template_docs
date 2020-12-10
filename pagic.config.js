@@ -9,7 +9,7 @@ export default {
     nav: [
         {
             text: 'Docs',
-            link: '/pagic_template_docs/docs/introduction.html',
+            link: '/pagic_template_docs/introduction/index.html',
         },
     ],
     sidebar: {
