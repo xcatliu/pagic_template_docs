@@ -1,1 +1,3 @@
-# pagic_template_docs
+# Pagic template docs
+
+Pagic template docs
