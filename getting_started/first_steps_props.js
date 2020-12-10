@@ -6,7 +6,7 @@ export default {
     },
     'next': {
         "link": "the_runtime/index.html",
-        "text": "Runtime"
+        "text": "The Runtime"
     },
     config: { "root": "/", ...projectConfig },
     'pagePath': "getting_started/first_steps.md",
@@ -71,7 +71,7 @@ export default {
                     "pagePath": "the_runtime/stability.md"
                 }
             ],
-            "text": "Runtime",
+            "text": "The Runtime",
             "pagePath": "the_runtime/README.md"
         }
     ],

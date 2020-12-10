@@ -65,7 +65,7 @@ export default {
                     "pagePath": "the_runtime/stability.md"
                 }
             ],
-            "text": "Runtime",
+            "text": "The Runtime",
             "pagePath": "the_runtime/README.md"
         }
     ],

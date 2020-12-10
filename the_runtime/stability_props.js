@@ -2,7 +2,7 @@ import projectConfig from '/pagic_template_docs/pagic.config.js';
 export default {
     'prev': {
         "link": "the_runtime/index.html",
-        "text": "Runtime"
+        "text": "The Runtime"
     },
     'next': undefined,
     config: { "root": "/", ...projectConfig },
@@ -68,7 +68,7 @@ export default {
                     "pagePath": "the_runtime/stability.md"
                 }
             ],
-            "text": "Runtime",
+            "text": "The Runtime",
             "pagePath": "the_runtime/README.md"
         }
     ],
