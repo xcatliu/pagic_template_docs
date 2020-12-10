@@ -5,35 +5,34 @@ export default {
         "text": "Getting Started"
     },
     'next': {
+        "text": "Set up your environment",
         "link": "getting_started/setup_your_environment.html"
     },
     config: { "root": "/", ...projectConfig },
     'pagePath': "getting_started/installation.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "getting_started/installation.html",
-    'title': undefined,
+    'title': "Installation",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h2 id="installation">Installation<a class="anchor" href="#installation">§</a></h2>\n<p>Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It\nhas no external dependencies.</p>'
+            __html: '<h1>Installation</h1>\n<p>Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It\nhas no external dependencies.</p>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
-    'contentTitle': undefined,
+    'contentTitle': React.createElement("h1", { key: "0" }, "Installation"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h2 id="installation">Installation<a class="anchor" href="#installation">§</a></h2>\n<p>Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It\nhas no external dependencies.</p>'
+            __html: '<p>Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It\nhas no external dependencies.</p>'
         } }),
-    'toc': React.createElement("aside", { dangerouslySetInnerHTML: {
-            __html: '<nav class="toc"><ol><li><a href="#installation">Installation</a></li></ol></nav>'
-        } }),
+    'toc': null,
     'author': "xcatliu",
     'contributors': [
         "xcatliu"
     ],
     'date': "2020-12-10T09:54:22.000Z",
-    'updated': null,
-    'excerpt': "Installation Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It has no external dependencies.",
+    'updated': "2020-12-10T10:05:10.000Z",
+    'excerpt': "Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It has no external dependencies.",
     'cover': undefined,
     'sidebar': [
         {
@@ -45,14 +44,17 @@ export default {
             "link": "getting_started/index.html",
             "children": [
                 {
+                    "text": "Installation",
                     "link": "getting_started/installation.html",
                     "pagePath": "getting_started/installation.md"
                 },
                 {
+                    "text": "Set up your environment",
                     "link": "getting_started/setup_your_environment.html",
                     "pagePath": "getting_started/setup_your_environment.md"
                 },
                 {
+                    "text": "First steps",
                     "link": "getting_started/first_steps.html",
                     "pagePath": "getting_started/first_steps.md"
                 }

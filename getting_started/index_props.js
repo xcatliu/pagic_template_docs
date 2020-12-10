@@ -5,6 +5,7 @@ export default {
         "link": "introduction/index.html"
     },
     'next': {
+        "text": "Installation",
         "link": "getting_started/installation.html"
     },
     config: { "root": "/", ...projectConfig },
@@ -43,14 +44,17 @@ export default {
             "link": "getting_started/index.html",
             "children": [
                 {
+                    "text": "Installation",
                     "link": "getting_started/installation.html",
                     "pagePath": "getting_started/installation.md"
                 },
                 {
+                    "text": "Set up your environment",
                     "link": "getting_started/setup_your_environment.html",
                     "pagePath": "getting_started/setup_your_environment.md"
                 },
                 {
+                    "text": "First steps",
                     "link": "getting_started/first_steps.html",
                     "pagePath": "getting_started/first_steps.md"
                 }
