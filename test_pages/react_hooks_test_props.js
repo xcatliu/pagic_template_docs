@@ -58,7 +58,7 @@ export default {
                 },
                 {
                     align: 'right',
-                    link: '/about/index.html',
+                    link: '/pagic_template_docs/about/index.html',
                     text: 'About'
                 }
             ],
