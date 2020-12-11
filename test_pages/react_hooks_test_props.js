@@ -95,7 +95,7 @@ export default {
                             'folder/foo.md',
                             {
                                 link: 'folder/bar.md',
-                                text: 'Custom title'
+                                text: 'Custom sidebar text'
                             }
                         ],
                         text: 'Folder'
@@ -154,7 +154,7 @@ export default {
                     "pagePath": "folder/foo.md"
                 },
                 {
-                    "text": "Custom title",
+                    "text": "Custom sidebar text",
                     "link": "folder/bar.html",
                     "pagePath": "folder/bar.md"
                 }

@@ -78,7 +78,7 @@ export default {
                     "pagePath": "folder/foo.md"
                 },
                 {
-                    "text": "Custom title",
+                    "text": "Custom sidebar text",
                     "link": "folder/bar.html",
                     "pagePath": "folder/bar.md"
                 }

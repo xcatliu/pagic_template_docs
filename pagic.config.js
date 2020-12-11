@@ -40,7 +40,7 @@ export default {
                 children: [
                     'folder/foo.md',
                     {
-                        text: 'Custom title',
+                        text: 'Custom sidebar text',
                         link: 'folder/bar.md'
                     }
                 ]
