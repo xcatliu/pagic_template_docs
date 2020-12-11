@@ -7,7 +7,7 @@ export default {
         "link": "test_pages/react_hooks_test.html"
     },
     'next': {
-        "text": "Custom title in sidebar",
+        "text": "Custom title",
         "link": "folder/bar.html"
     },
     config: { "root": "/", ...projectConfig },
@@ -76,7 +76,7 @@ export default {
                     "pagePath": "folder/foo.md"
                 },
                 {
-                    "text": "Custom title in sidebar",
+                    "text": "Custom title",
                     "link": "folder/bar.html",
                     "pagePath": "folder/bar.md"
                 }
