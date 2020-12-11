@@ -4,7 +4,7 @@ export default {
     exclude: ['LICENSE'],
     root: '/pagic_template_docs/',
     theme: 'docs',
-    plugins: ['sidebar', 'prev_next', 'ga', 'gitalk'],
+    plugins: ['sidebar', 'prev_next'],
     title: 'Pagic template docs',
     description: 'Use this template to create a Pagic site with the docs theme',
     // To use jsx syntax, please rename this file to pagic.config.tsx
@@ -50,17 +50,6 @@ export default {
     tools: {
         editOnGitHub: true,
         backToTop: true,
-    },
-    ga: {
-        id: 'UA-45256157-17',
-    },
-    gitalk: {
-        clientID: 'd5690cdd53ff6a9fc9df',
-        clientSecret: 'd026c52e779c6e70963eca753e21d2f53f8d1342',
-        repo: 'pagic_template_docs',
-        owner: 'xcatliu',
-        admin: ['xcatliu'],
-        pagerDirection: 'first',
     },
     port: 8000,
 };

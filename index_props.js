@@ -1,6 +1,4 @@
 import projectConfig from '/pagic_template_docs/pagic.config.js';
-import Ga from '/pagic_template_docs/_ga.js';
-import Gitalk from '/pagic_template_docs/_gitalk.js';
 export default {
     'prev': undefined,
     'next': undefined,
@@ -13,9 +11,7 @@ export default {
             __html: '<h1>Pagic template docs</h1>\n<p>Use this template to create a Pagic site with the <em>docs</em> theme.</p>\n<h2 id="1-click-the-use-this-template-button-in-this-repo">1. Click the <em>Use this template</em> button in <a href="https://github.com/xcatliu/pagic_template_docs">this repo</a><a class="anchor" href="#1-click-the-use-this-template-button-in-this-repo">§</a></h2>\n<p><img src="./assets/1.png" alt="Step 1"></p>\n<h2 id="2-enter-the-repository-name-and-click-the-create-repository-from-template-button">2. Enter the <em>Repository name</em> and click the <em>Create repository from template</em> button<a class="anchor" href="#2-enter-the-repository-name-and-click-the-create-repository-from-template-button">§</a></h2>\n<p><img src="./assets/2.png" alt="Step 2"></p>\n<h2 id="3-edit-pagicconfigts-file-replace-pagic_template_docs-by-the-repository-name">3. Edit <code>pagic.config.ts</code> file, replace <code>pagic_template_docs</code> by the <em>Repository name</em><a class="anchor" href="#3-edit-pagicconfigts-file-replace-pagic_template_docs-by-the-repository-name">§</a></h2>\n<p><img src="./assets/3.png" alt="Step 3"></p>\n<h2 id="4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">4. Go to <em>Settings</em> &gt; <em>Options</em> &gt; <em>GitHub Pages</em> and set Branch to gh-pages<a class="anchor" href="#4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">§</a></h2>\n<p><img src="./assets/4.png" alt="Step 4"></p>'
         } }),
     'head': React.createElement(React.Fragment, null,
-        React.createElement(Ga, { id: "UA-45256157-17" }),
-        React.createElement(React.Fragment, { key: ".1" },
-            React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" }))),
+        React.createElement("link", { crossOrigin: "anonymous", href: "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css", integrity: "sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X", rel: "stylesheet" })),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
@@ -78,8 +74,5 @@ export default {
                 }
             ]
         }
-    ],
-    'gitalk': React.createElement(Gitalk, { admin: [
-            'xcatliu'
-        ], clientID: "d5690cdd53ff6a9fc9df", clientSecret: "d026c52e779c6e70963eca753e21d2f53f8d1342", id: "index.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "Pagic template docs" })
+    ]
 };

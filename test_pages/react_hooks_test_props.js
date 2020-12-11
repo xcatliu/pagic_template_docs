@@ -1,7 +1,5 @@
 import projectConfig from '/pagic_template_docs/pagic.config.js';
 import ReactHooksTest from './react_hooks_test_content.js';
-import Ga from '/pagic_template_docs/_ga.js';
-import Gitalk from '/pagic_template_docs/_gitalk.js';
 export default {
     'prev': {
         "text": "Front matter test",
@@ -32,19 +30,6 @@ export default {
                 'LICENSE',
                 'dist'
             ],
-            ga: {
-                id: 'UA-45256157-17'
-            },
-            gitalk: {
-                admin: [
-                    'xcatliu'
-                ],
-                clientID: 'd5690cdd53ff6a9fc9df',
-                clientSecret: 'd026c52e779c6e70963eca753e21d2f53f8d1342',
-                owner: 'xcatliu',
-                pagerDirection: 'first',
-                repo: 'pagic_template_docs'
-            },
             github: 'https://github.com/xcatliu/pagic_template_docs',
             include: undefined,
             nav: [
@@ -72,9 +57,7 @@ export default {
                 'layout',
                 'out',
                 'sidebar',
-                'prev_next',
-                'ga',
-                'gitalk'
+                'prev_next'
             ],
             port: 8000,
             root: '/pagic_template_docs/',
@@ -111,8 +94,7 @@ export default {
             },
             watch: false
         }, content: null, head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
-    'head': React.createElement(React.Fragment, null,
-        React.createElement(Ga, { id: "UA-45256157-17" })),
+    'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
@@ -160,8 +142,5 @@ export default {
                 }
             ]
         }
-    ],
-    'gitalk': React.createElement(Gitalk, { admin: [
-            'xcatliu'
-        ], clientID: "d5690cdd53ff6a9fc9df", clientSecret: "d026c52e779c6e70963eca753e21d2f53f8d1342", id: "test_pages/react_hooks_test.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "React hooks test" })
+    ]
 };
