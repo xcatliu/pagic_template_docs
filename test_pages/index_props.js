@@ -16,7 +16,7 @@ export default {
     'outputPath': "test_pages/index.html",
     'title': "Test pages",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Test pages</h1>\n<p>This section includes most of the features of the docs theme.</p>'
+            __html: '<h1>Test pages</h1>\n<p>The test pages.</p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement(Ga, { id: "UA-45256157-17" }),
@@ -28,7 +28,7 @@ export default {
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "Test pages"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>This section includes most of the features of the docs theme.</p>'
+            __html: '<p>The test pages.</p>'
         } }),
     'toc': null,
     'author': "xcatliu",
@@ -36,8 +36,8 @@ export default {
         "xcatliu"
     ],
     'date': "2020-12-11T11:31:49.000Z",
-    'updated': null,
-    'excerpt': "This section includes most of the features of the docs theme.",
+    'updated': "2020-12-11T12:06:48.000Z",
+    'excerpt': "The test pages.",
     'cover': undefined,
     'sidebar': [
         {
