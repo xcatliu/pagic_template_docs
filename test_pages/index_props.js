@@ -68,7 +68,7 @@ export default {
             "pagePath": "test_pages/README.md"
         },
         {
-            "title": "Folder",
+            "text": "Folder",
             "children": [
                 {
                     "text": "Foo",
@@ -76,9 +76,8 @@ export default {
                     "pagePath": "folder/foo.md"
                 },
                 {
-                    "title": "Custom title in sidebar",
+                    "text": "Custom title in sidebar",
                     "link": "folder/bar.html",
-                    "text": "Bar",
                     "pagePath": "folder/bar.md"
                 }
             ]

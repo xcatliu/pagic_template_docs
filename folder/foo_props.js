@@ -7,8 +7,8 @@ export default {
         "link": "test_pages/react_hooks_test.html"
     },
     'next': {
-        "link": "folder/bar.html",
-        "text": "Bar"
+        "text": "Custom title in sidebar",
+        "link": "folder/bar.html"
     },
     config: { "root": "/", ...projectConfig },
     'pagePath': "folder/foo.md",
@@ -68,7 +68,7 @@ export default {
             "pagePath": "test_pages/README.md"
         },
         {
-            "title": "Folder",
+            "text": "Folder",
             "children": [
                 {
                     "text": "Foo",
@@ -76,9 +76,8 @@ export default {
                     "pagePath": "folder/foo.md"
                 },
                 {
-                    "title": "Custom title in sidebar",
+                    "text": "Custom title in sidebar",
                     "link": "folder/bar.html",
-                    "text": "Bar",
                     "pagePath": "folder/bar.md"
                 }
             ]
