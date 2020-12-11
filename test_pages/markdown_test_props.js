@@ -8,7 +8,7 @@ export default {
         "text": "Front matter test",
         "link": "test_pages/front_matter_test.html"
     },
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/markdown_test.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "test_pages/markdown_test.html",

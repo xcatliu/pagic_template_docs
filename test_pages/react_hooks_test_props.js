@@ -9,7 +9,7 @@ export default {
         "text": "Foo",
         "link": "folder/foo.html"
     },
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/react_hooks_test.tsx",
     'layoutPath': "_layout.tsx",
     'outputPath': "test_pages/react_hooks_test.html",

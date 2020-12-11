@@ -8,7 +8,7 @@ export default {
         "text": "Markdown test",
         "link": "test_pages/markdown_test.html"
     },
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "test_pages/index.html",

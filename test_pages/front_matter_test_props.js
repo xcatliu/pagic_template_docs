@@ -2,7 +2,7 @@ import projectConfig from '/pagic_template_docs/pagic.config.js';
 export default {
     'prev': null,
     'next': null,
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/front_matter.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "test_pages/front_matter_test.html",

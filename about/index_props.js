@@ -2,7 +2,7 @@ import projectConfig from '/pagic_template_docs/pagic.config.js';
 export default {
     'prev': undefined,
     'next': undefined,
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "about/README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "about/index.html",

@@ -5,7 +5,7 @@ export default {
         "link": "test_pages/index.html",
         "text": "Test pages"
     },
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "introduction/README.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "introduction/index.html",

@@ -8,7 +8,7 @@ export default {
         "text": "Custom sidebar text",
         "link": "folder/bar.html"
     },
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "folder/foo.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "folder/foo.html",

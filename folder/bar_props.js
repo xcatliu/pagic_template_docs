@@ -5,7 +5,7 @@ export default {
         "link": "folder/foo.html"
     },
     'next': undefined,
-    config: { "root": "/", ...projectConfig },
+    config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "folder/bar.md",
     'layoutPath': "_layout.tsx",
     'outputPath': "folder/bar.html",
