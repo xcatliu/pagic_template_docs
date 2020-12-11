@@ -20,8 +20,8 @@ export default {
       link: '/pagic_template_docs/introduction/index.html',
     },
     {
-      text: 'Deno',
-      link: 'https://deno.land/',
+      text: 'Pagic',
+      link: 'https://pagic.org/',
     },
     {
       text: 'About',
@@ -38,11 +38,11 @@ export default {
         children: ['test_pages/markdown_test.md', 'test_pages/front_matter.md', 'test_pages/react_hooks_test.tsx'],
       },
       {
-        title: 'Folder',
+        text: 'Folder',
         children: [
           'folder/foo.md',
           {
-            title: 'Custom title in sidebar',
+            text: 'Custom title in sidebar',
             link: 'folder/bar.md'
           }
         ]
