@@ -1,0 +1,3 @@
+# Foo
+
+The foo page.

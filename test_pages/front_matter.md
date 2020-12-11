@@ -12,7 +12,7 @@ This is a front matter test page.
 
 ```yml
 outputPath: test_pages/front_matter_test.html
-title: Front matter
+title: Front matter test
 toc: null
 prev: null
 next: null

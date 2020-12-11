@@ -1,0 +1,3 @@
+# Bar
+
+The bar page.

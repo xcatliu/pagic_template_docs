@@ -20,6 +20,10 @@ export default {
       link: '/pagic_template_docs/introduction/index.html',
     },
     {
+      text: 'Deno',
+      link: 'https://deno.land/',
+    },
+    {
       text: 'About',
       link: '/about/index.html',
       align: 'right',
@@ -33,6 +37,16 @@ export default {
         link: 'test_pages/README.md',
         children: ['test_pages/markdown_test.md', 'test_pages/front_matter.md', 'test_pages/react_hooks_test.tsx'],
       },
+      {
+        title: 'Folder',
+        children: [
+          'folder/foo.md',
+          {
+            title: 'Custom title in sidebar',
+            link: 'folder/bar.md'
+          }
+        ]
+      }
     ],
   },
   tools: {
