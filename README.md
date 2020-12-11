@@ -1,6 +1,6 @@
 # Pagic template docs
 
-Use this template to create a Pagic site with the *docs* theme.
+Use this template to create a [Pagic](https://pagic.org) site with the *docs* theme.
 
 ## 1. Click the *Use this template* button in [this repo](https://github.com/xcatliu/pagic_template_docs)
 
