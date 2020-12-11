@@ -10,7 +10,7 @@ export default {
     'outputPath': "index.html",
     'title': "Pagic template docs",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Pagic template docs</h1>\n<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<h1>Pagic template docs</h1>\n<p>Use this template to create a Pagic site with the <em>docs</em> theme.</p>\n<h2 id="1-click-the-use-this-template-button">1. Click the <strong>Use this template</strong> button<a class="anchor" href="#1-click-the-use-this-template-button">§</a></h2>\n<p><img src="./assets/1.png" alt="Step 1"></p>\n<h2 id="2-enter-your-repository-name-and-click-the-create-repository-from-template-button">2. Enter your <strong>repository name</strong> and click the <strong>Create repository from template</strong> button<a class="anchor" href="#2-enter-your-repository-name-and-click-the-create-repository-from-template-button">§</a></h2>\n<p><img src="./assets/2.png" alt="Step 2"></p>\n<h2 id="3-edit-pagicconfigts-file-replace-pagic_template_docs-to-your-repositorys-name">3. Edit <code>pagic.config.ts</code> file, replace <code>pagic_template_docs</code> to your repository\'s name<a class="anchor" href="#3-edit-pagicconfigts-file-replace-pagic_template_docs-to-your-repositorys-name">§</a></h2>\n<p><img src="./assets/3.png" alt="Step 3"></p>\n<h2 id="4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">4. Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages<a class="anchor" href="#4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">§</a></h2>\n<p><img src="./assets/4.png" alt="Step 4"></p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement(Ga, { id: "UA-45256157-17" }),
@@ -22,17 +22,19 @@ export default {
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "Pagic template docs"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<p>Use this template to create a Pagic site with the <em>docs</em> theme.</p>\n<h2 id="1-click-the-use-this-template-button">1. Click the <strong>Use this template</strong> button<a class="anchor" href="#1-click-the-use-this-template-button">§</a></h2>\n<p><img src="./assets/1.png" alt="Step 1"></p>\n<h2 id="2-enter-your-repository-name-and-click-the-create-repository-from-template-button">2. Enter your <strong>repository name</strong> and click the <strong>Create repository from template</strong> button<a class="anchor" href="#2-enter-your-repository-name-and-click-the-create-repository-from-template-button">§</a></h2>\n<p><img src="./assets/2.png" alt="Step 2"></p>\n<h2 id="3-edit-pagicconfigts-file-replace-pagic_template_docs-to-your-repositorys-name">3. Edit <code>pagic.config.ts</code> file, replace <code>pagic_template_docs</code> to your repository\'s name<a class="anchor" href="#3-edit-pagicconfigts-file-replace-pagic_template_docs-to-your-repositorys-name">§</a></h2>\n<p><img src="./assets/3.png" alt="Step 3"></p>\n<h2 id="4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">4. Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages<a class="anchor" href="#4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">§</a></h2>\n<p><img src="./assets/4.png" alt="Step 4"></p>'
         } }),
-    'toc': null,
+    'toc': React.createElement("aside", { dangerouslySetInnerHTML: {
+            __html: '<nav class="toc"><ol><li><a href="#1-click-the-use-this-template-button">1. Click the Use this template button</a></li><li><a href="#2-enter-your-repository-name-and-click-the-create-repository-from-template-button">2. Enter your repository name and click the Create repository from template button</a></li><li><a href="#3-edit-pagicconfigts-file-replace-pagic_template_docs-to-your-repositorys-name">3. Edit pagic.config.ts file, replace pagic_template_docs to your repository&#39;s name</a></li><li><a href="#4-go-to-settings--options--github-pages-and-set-branch-to-gh-pages">4. Go to Settings &gt; Options &gt; GitHub Pages and set Branch to gh-pages</a></li></ol></nav>'
+        } }),
     'author': "xcatliu",
     'contributors': [
         "xcatliu"
     ],
     'date': "2020-12-10T09:18:25.000Z",
-    'updated': "2020-12-11T11:31:49.000Z",
-    'excerpt': "Use this template to create a Pagic site with the docs theme. 1. Click the Use this template button 2. Enter your Repository name and click the Create repository from template button 3. Edit pagic.config.ts fil...",
-    'cover': undefined,
+    'updated': "2020-12-11T13:06:39.000Z",
+    'excerpt': "Use this template to create a Pagic site with the docs theme. 1. Click the Use this template button 2. Enter your repository name and click the Create repository from template button 3. Edit pagic.config.ts fil...",
+    'cover': "./assets/1.png",
     'sidebar': [
         {
             "text": "Introduction",
