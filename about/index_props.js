@@ -5,12 +5,12 @@ export default {
     'prev': undefined,
     'next': undefined,
     config: { "root": "/", ...projectConfig },
-    'pagePath': "README.md",
+    'pagePath': "about/README.md",
     'layoutPath': "_layout.tsx",
-    'outputPath': "index.html",
-    'title': "Pagic template docs",
+    'outputPath': "about/index.html",
+    'title': "About",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Pagic template docs</h1>\n<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<h1>About</h1>\n<p>The about page.</p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement(Ga, { id: "UA-45256157-17" }),
@@ -20,18 +20,18 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
-    'contentTitle': React.createElement("h1", { key: "0" }, "Pagic template docs"),
+    'contentTitle': React.createElement("h1", { key: "0" }, "About"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<p>The about page.</p>'
         } }),
     'toc': null,
     'author': "xcatliu",
     'contributors': [
         "xcatliu"
     ],
-    'date': "2020-12-10T09:18:25.000Z",
-    'updated': "2020-12-11T11:31:49.000Z",
-    'excerpt': "Use this template to create a Pagic site with the docs theme. 1. Click the Use this template button 2. Enter your Repository name and click the Create repository from template button 3. Edit pagic.config.ts fil...",
+    'date': "2020-12-11T11:31:49.000Z",
+    'updated': null,
+    'excerpt': "The about page.",
     'cover': undefined,
     'sidebar': [
         {
@@ -64,5 +64,5 @@ export default {
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
             'xcatliu'
-        ], clientID: "29aa4941759fc887ed4f", clientSecret: "33e355efdf3a1959624506a5d88311145208471b", id: "index.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "Pagic template docs" })
+        ], clientID: "29aa4941759fc887ed4f", clientSecret: "33e355efdf3a1959624506a5d88311145208471b", id: "about/index.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "About" })
 };

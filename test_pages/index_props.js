@@ -2,15 +2,21 @@ import projectConfig from '/pagic_template_docs/pagic.config.js';
 import Ga from '/pagic_template_docs/_ga.js';
 import Gitalk from '/pagic_template_docs/_gitalk.js';
 export default {
-    'prev': undefined,
-    'next': undefined,
+    'prev': {
+        "text": "Introduction",
+        "link": "introduction/index.html"
+    },
+    'next': {
+        "text": "Markdown test",
+        "link": "test_pages/markdown_test.html"
+    },
     config: { "root": "/", ...projectConfig },
-    'pagePath': "README.md",
+    'pagePath': "test_pages/README.md",
     'layoutPath': "_layout.tsx",
-    'outputPath': "index.html",
-    'title': "Pagic template docs",
+    'outputPath': "test_pages/index.html",
+    'title': "Test pages",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>Pagic template docs</h1>\n<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<h1>Test pages</h1>\n<p>This section includes most of the features of the docs theme.</p>'
         } }),
     'head': React.createElement(React.Fragment, null,
         React.createElement(Ga, { id: "UA-45256157-17" }),
@@ -20,18 +26,18 @@ export default {
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
-    'contentTitle': React.createElement("h1", { key: "0" }, "Pagic template docs"),
+    'contentTitle': React.createElement("h1", { key: "0" }, "Test pages"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>Use this template to create a Pagic site with the docs theme.</p>\n<ol>\n<li>Click the <strong>Use this template</strong> button</li>\n<li>Enter your <strong>Repository name</strong> and click the <strong>Create repository from template</strong> button</li>\n<li>Edit <code>pagic.config.ts</code> file and replace <code>root</code>, <code>github</code>, <code>nav[0].link</code> options</li>\n<li>Go to <strong>Settings</strong> &gt; <strong>Options</strong> &gt; <strong>GitHub Pages</strong> and set Branch to gh-pages</li>\n</ol>'
+            __html: '<p>This section includes most of the features of the docs theme.</p>'
         } }),
     'toc': null,
     'author': "xcatliu",
     'contributors': [
         "xcatliu"
     ],
-    'date': "2020-12-10T09:18:25.000Z",
-    'updated': "2020-12-11T11:31:49.000Z",
-    'excerpt': "Use this template to create a Pagic site with the docs theme. 1. Click the Use this template button 2. Enter your Repository name and click the Create repository from template button 3. Edit pagic.config.ts fil...",
+    'date': "2020-12-11T11:31:49.000Z",
+    'updated': null,
+    'excerpt': "This section includes most of the features of the docs theme.",
     'cover': undefined,
     'sidebar': [
         {
@@ -64,5 +70,5 @@ export default {
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
             'xcatliu'
-        ], clientID: "29aa4941759fc887ed4f", clientSecret: "33e355efdf3a1959624506a5d88311145208471b", id: "index.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "Pagic template docs" })
+        ], clientID: "29aa4941759fc887ed4f", clientSecret: "33e355efdf3a1959624506a5d88311145208471b", id: "test_pages/index.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "Test pages" })
 };
