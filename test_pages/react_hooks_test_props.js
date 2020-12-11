@@ -7,7 +7,10 @@ export default {
         "text": "Front matter test",
         "link": "test_pages/front_matter_test.html"
     },
-    'next': undefined,
+    'next': {
+        "text": "Foo",
+        "link": "folder/foo.html"
+    },
     config: { "root": "/", ...projectConfig },
     'pagePath': "test_pages/react_hooks_test.tsx",
     'layoutPath': "_layout.tsx",
@@ -50,6 +53,10 @@ export default {
                     text: 'Docs'
                 },
                 {
+                    link: 'https://deno.land/',
+                    text: 'Deno'
+                },
+                {
                     align: 'right',
                     link: '/about/index.html',
                     text: 'About'
@@ -82,6 +89,16 @@ export default {
                             'test_pages/react_hooks_test.tsx'
                         ],
                         link: 'test_pages/README.md'
+                    },
+                    {
+                        children: [
+                            'folder/foo.md',
+                            {
+                                link: 'folder/bar.md',
+                                title: 'Custom title in sidebar'
+                            }
+                        ],
+                        title: 'Folder'
                     }
                 ]
             },
@@ -127,6 +144,22 @@ export default {
             ],
             "text": "Test pages",
             "pagePath": "test_pages/README.md"
+        },
+        {
+            "title": "Folder",
+            "children": [
+                {
+                    "text": "Foo",
+                    "link": "folder/foo.html",
+                    "pagePath": "folder/foo.md"
+                },
+                {
+                    "title": "Custom title in sidebar",
+                    "link": "folder/bar.html",
+                    "text": "Bar",
+                    "pagePath": "folder/bar.md"
+                }
+            ]
         }
     ],
     'gitalk': React.createElement(Gitalk, { admin: [

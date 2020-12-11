@@ -60,6 +60,22 @@ export default {
             ],
             "text": "Test pages",
             "pagePath": "test_pages/README.md"
+        },
+        {
+            "title": "Folder",
+            "children": [
+                {
+                    "text": "Foo",
+                    "link": "folder/foo.html",
+                    "pagePath": "folder/foo.md"
+                },
+                {
+                    "title": "Custom title in sidebar",
+                    "link": "folder/bar.html",
+                    "text": "Bar",
+                    "pagePath": "folder/bar.md"
+                }
+            ]
         }
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
