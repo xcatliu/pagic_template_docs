@@ -1,7 +1,10 @@
 # Introduction
 
-Deno is a JavaScript/TypeScript runtime with secure defaults and a great
-developer experience.
+Use this template to create a Pagic site with the docs theme.
+
+
+
+
 
 It's built on V8, Rust, and Tokio.
 

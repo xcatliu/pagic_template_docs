@@ -1,4 +1,4 @@
-import { React } from 'https://deno.land/x/pagic@v1.0.0-beta.2/mod.ts';
+import { React } from 'https://deno.land/x/pagic/mod.ts';
 
 const ReactHooksTest = () => {
   const [count, setCount] = React.useState(0);
