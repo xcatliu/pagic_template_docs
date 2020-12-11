@@ -41,8 +41,8 @@ export default {
         id: 'UA-45256157-17',
     },
     gitalk: {
-        clientID: '29aa4941759fc887ed4f',
-        clientSecret: '33e355efdf3a1959624506a5d88311145208471b',
+        clientID: 'd5690cdd53ff6a9fc9df',
+        clientSecret: 'd026c52e779c6e70963eca753e21d2f53f8d1342',
         repo: 'pagic_template_docs',
         owner: 'xcatliu',
         admin: ['xcatliu'],

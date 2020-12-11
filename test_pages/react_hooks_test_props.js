@@ -36,8 +36,8 @@ export default {
                 admin: [
                     'xcatliu'
                 ],
-                clientID: '29aa4941759fc887ed4f',
-                clientSecret: '33e355efdf3a1959624506a5d88311145208471b',
+                clientID: 'd5690cdd53ff6a9fc9df',
+                clientSecret: 'd026c52e779c6e70963eca753e21d2f53f8d1342',
                 owner: 'xcatliu',
                 pagerDirection: 'first',
                 repo: 'pagic_template_docs'
@@ -131,5 +131,5 @@ export default {
     ],
     'gitalk': React.createElement(Gitalk, { admin: [
             'xcatliu'
-        ], clientID: "29aa4941759fc887ed4f", clientSecret: "33e355efdf3a1959624506a5d88311145208471b", id: "test_pages/react_hooks_test.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "React hooks test" })
+        ], clientID: "d5690cdd53ff6a9fc9df", clientSecret: "d026c52e779c6e70963eca753e21d2f53f8d1342", id: "test_pages/react_hooks_test.html", owner: "xcatliu", pagerDirection: "first", repo: "pagic_template_docs", title: "React hooks test" })
 };
